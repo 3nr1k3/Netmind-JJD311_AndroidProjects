@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             else if (whichView.getId() == R.id.btnReadFeed)
             {
                 // The feed to be accessed
-                final String urlFeed = "http://www.theguardian.com/international/rss";
+                final String urlFeed = "https://www.theguardian.com/international/rss";
                 //final String urlFeed = "http://www.revistalatahona.com/feed";
                 // Querying the feed 'URL' from an alternative thread
                 new MyParsingThread(this).execute(urlFeed);
